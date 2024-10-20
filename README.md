@@ -41,6 +41,5 @@ Through this project, I aim to develop practical skills, including:
 
 While the current version covers core inventory management, future enhancements could include:
 - Integration with a point-of-sale system for real-time updates.
-- Support for multiple pharmacy locations.
 - User roles and permissions to ensure data security.
 - Generate detailed reports on stock usage and trends.
