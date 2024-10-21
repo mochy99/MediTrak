@@ -72,3 +72,25 @@ While the current version covers core inventory management, future enhancements 
 - Integration with a point-of-sale system for real-time updates.
 - User roles and permissions to ensure data security.
 - Generate detailed reports on stock usage and trends.
+
+---
+
+## User Stories for MediTrak
+
+1. **As a user**, I want to add a new drug with details such as DIN/NPN, brand name, main ingredient, strength, manufacturer, lot number, expiration date, price, markup, quantity, and category, so that I can keep track of all the medications in the pharmacy.
+
+2. **As a user**, I want to update the information of an existing drug to ensure that the inventory is accurate and up to date.
+
+3. **As a user**, I want to view all medications by category, name, and Drug Identification Number (DIN), so that I can quickly find specific drugs in the inventory.
+
+4. **As a user**, I want to search for a medication by its name or DIN to locate specific drugs in the inventory efficiently.
+
+5. **As a user**, I want to view a list of all medications in the inventory, including details like brand name, main ingredient, strength, manufacturer, lot number, expiration date, and quantity, so that I can easily monitor stock levels.
+
+6. **As a user**, I want to update the quantity dispensed for a drug to reflect its availability accurately, along with patient information and transaction number, so that I can maintain precise inventory levels and patient records.
+
+7. **As a user**, I want to export a list of medications that have close expiration dates (0, 1, 3, or 6 months), so that I can take timely action on them.
+
+8. **As a user**, I want to receive notifications when a drug's inventory is low based on historical dispensing data, so that I can manage restocking effectively.
+
+
