@@ -77,7 +77,7 @@ While the current version covers core inventory management, future enhancements 
 
 ## User Stories for MediTrak
 
-1. **As a user**, I want to add a new drug with details such as DIN/NPN, brand name, main ingredient, strength, manufacturer, lot number, expiration date, price, markup, quantity, and category, so that I can keep track of all the medications in the pharmacy.
+1. **As a user**, I want to add a new drug with details such as DIN/NPN, brand name, main ingredient, strength, formula, manufacturer, lot number, expiration date, price, markup, quantity, and category, so that I can keep track of all the medications in the pharmacy.
 
 2. **As a user**, I want to update the information of an existing drug to ensure that the inventory is accurate and up to date.
 
