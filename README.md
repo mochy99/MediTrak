@@ -1,41 +1,70 @@
 # MediTrak
 
-**MediTrak** is a pharmacy inventory tracking and management system, developed as part of the coursework for **CPSC 210 - Software Construction**. This project applies the principles of abstraction and decomposition to create a robust software system that addresses real-world challenges in pharmacy operations.
+**Pharmacy Inventory Tracking and Management System**
+
+**MediTrak** is a pharmacy inventory tracking and management system, developed as part of the coursework for **_CPSC 210 - Software Construction_**. This project applies the principles of **_abstraction_** and **_decomposition_** to create a robust software system that addresses real-world challenges in pharmacy operations.
+
+---
+
 
 ## Course Context: CPSC 210
 
-This repository is part of my work for **CPSC 210 - Software Construction**, which builds upon the foundational concepts introduced in **CPSC 110**. The course emphasizes two core ideas:
+This repository is part of my work for **_CPSC 210 - Software Construction_**, which builds upon the foundational concepts introduced in **_CPSC 110_**. The course emphasizes two core ideas:
 - **Abstraction**: Simplifying complex systems to manageable components.
 - **Decomposition**: Breaking down software systems into modular parts to make them easier to construct and maintain.
 
-## Project Goals
+---
 
-The main goal of MediTrak is to create a reliable and efficient system to track and manage pharmacy inventory. This includes:
-- Monitoring stock levels of medications.
-- Recording incoming and outgoing drugs.
-- Generating alerts for low stock levels and expired.
-- Managing inventory based on expiration dates and usage trends.
+## What will the application do?
+
+**MediTrak** will automate and streamline the pharmacy inventory management process. The application will:
+- Provide real-time updates on medication stock levels.
+- Track medication expiration dates and flag items nearing expiry.
+- Send alerts when stock reaches a predefined low threshold, ensuring timely restocking.
+- Offer an intuitive interface for easy navigation and minimal technical learning for pharmacy staff.
+
+---
+
+## Who will use it?
+
+This application is intended for:
+- **Pharmacy staff**: Pharmacists, technicians, and assistants who manage and maintain the inventory.
+- **Pharmacy managers**: Responsible for stock control, ensuring medications are available and avoiding overstocking or shortages.
+
+---
+
+## Why is this project of interest to you?
+
+As someone with experience working in a community pharmacy, I’ve seen firsthand the challenges associated with inventory management. Medications must be tracked carefully to avoid waste and ensure patient safety. This project allows me to apply my background in pharmacy and software development to solve a practical problem, combining my **_passion for healthcare_** with my **_interest in software engineering_**.
+
+---
 
 ## Key Features
+
 - **Inventory Monitoring**: Track real-time stock levels of medications.
 - **Expiration Management**: Flag medications nearing expiration.
 - **Restock Alerts**: Notifications for low inventory.
 - **User-friendly Interface**: Designed for easy use by pharmacy staff with minimal technical knowledge.
 
+---
 
 ## Learning Objectives
 
 Through this project, I aim to develop practical skills, including:
-- Understanding and implementing software abstraction and decomposition.
-- Designing and writing code in Java.
-- Developing skills in debugging, testing, and refactoring.
-- Collaborating effectively in a software development team, using control-flow and data-flow models.
+- **Understanding and implementing software abstraction and decomposition**.
+- **Designing and writing code in Java**.
+- **Developing skills in debugging, testing, and refactoring**.
+- **Collaborating effectively in a software development team**, using control-flow and data-flow models.
+
+---
 
 ## Project Structure
 
 - `src`: Contains the `main` and `test` Java source code for the project.
-- `library`: Includes any library if it is applicable.
+- `lib`: Includes any library if applicable.
 - `docs`: Documentation related to the project, including system design and user guides.
+
+---
 
 ## Future Enhancements
 
