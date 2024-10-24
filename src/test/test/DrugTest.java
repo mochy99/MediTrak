@@ -1,4 +1,4 @@
-package test;
+package test.test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -21,7 +21,7 @@ public class DrugTest {
     ExpirationInfo expirationInf;
 
     @BeforeEach
-    public void runBefore() { // Add public keyword
+    public void runBefore() { 
         expirationInf = new ExpirationInfo(oldExp, lotA, 30.0);
         testDrugA = new Drug(123, "Forxiga", "Dapaglifozin", 10, 
                             "tab", "AZ", "RXB", expirationInf, 

@@ -6,7 +6,7 @@ import java.util.Date;
 public class Drug extends Medicine implements Trade {
 
     // Constructor for Drug
-    public Drug(int din, String name, String ingredient, int strength, String formula, String manufacturer,
+    public Drug(int din, String name, String ingredient, double strength, String formula, String manufacturer,
             String category, ExpirationInfo exp, double price, double markup) {
         super(din, name, ingredient, strength, formula, manufacturer, category, exp, price, markup);
     }
@@ -36,7 +36,6 @@ public class Drug extends Medicine implements Trade {
 
     @Override
     public void dispense(double quantity, String lot) {
-        // stub
         
     }
 }

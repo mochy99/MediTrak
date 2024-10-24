@@ -8,7 +8,7 @@ public abstract class Medicine {
     private int din; 
     private String name; 
     private String ingredient; 
-    private int strength; 
+    private double strength; 
     private String formula; 
     private String manufacturer; 
     private String category; 
@@ -18,7 +18,7 @@ public abstract class Medicine {
 
 
     // Constructor
-    public Medicine(int din, String name, String ingredient, int strength, String formula, 
+    public Medicine(int din, String name, String ingredient, double strength, String formula, 
                     String manufacturer, String category, ExpirationInfo exp,
                     double price, double markup) {
         this.din = din;
@@ -48,7 +48,7 @@ public abstract class Medicine {
         return ingredient;
     }
 
-    public int getStrength() {
+    public double getStrength() {
         return strength;
     }
 
